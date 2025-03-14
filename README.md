@@ -34,6 +34,7 @@ Main.py:
   
   An ultrasound function is created to utilise its distance sensing, furthermore the find_corners() function rapidly uses the pulses from left to right
   when there is a spike in distances during the array i.e [1,2,3,2,1,39] the bot will know its passed the corner of the object and begin checking the left corner. The microbit uses this information to make sure it turns perfectly 180 degrees away from the object and reverses in to collect moisture data
+![image](https://github.com/user-attachments/assets/79ea5053-9ca4-4075-9906-5aff93928d67)
 
 CSV_capture_file.py:
 A program that uses the captured csv file to upload the data to thingspeak, 
