@@ -54,9 +54,10 @@ for i, coord in enumerate(centroids):
         weight='bold'
     )
 
-ax.set_title('3D K-Means Clustering of Microbit Sensor Data')
-ax.set_xlabel(f'Standardized {features[1]}')  # temperature
+ax.set_title('3D K-Means Clustering of Microbit Sensor Data')#makes figure readable
+ax.set_xlabel(f'Standardized {features[1]}')  # temperature 
 ax.set_ylabel(f'Standardized {features[2]}')  # light
 ax.set_zlabel(f'Standardized {features[3]}')  # distance
 ax.legend()
 plt.show()
+
